@@ -137,6 +137,7 @@ desde que mantenha a atribuição ao autor original.
 ## Autor
 
 **Ulisses Levy Silvério dos Reis**
+
 Professor do Curso de Bacharelado e do Programa de Pós-Graduação
 em Direito da UFERSA
 
