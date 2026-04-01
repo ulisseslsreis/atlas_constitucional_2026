@@ -1,0 +1,18 @@
+# Dados não versionados
+data/
+
+# Arquivos do RStudio (caso o projeto seja aberto no RStudio também)
+.Rproj.user/
+.Rhistory
+.RData
+.Rprofile
+
+# Configurações locais do Positron/VS Code
+.vscode/
+
+# Arquivos de sistema macOS
+.DS_Store
+
+# Arquivos gerados automaticamente pelo Quarto
+README.html
+README_files/
