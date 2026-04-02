@@ -12,7 +12,7 @@ pesquisadores de qualquer instituição.
 
 ## Acesso ao aplicativo
 
-> 🔗 [Acesse o Atlas Constitucional aqui](https://PLACEHOLDER.shinyapps.io)
+> 🔗 [Acesse o Atlas Constitucional aqui](https://n8wo69-ulisses0reis.shinyapps.io/atlas_constitucional_2026/)
 
 ## O que você pode explorar
 
@@ -113,7 +113,7 @@ acadêmicos ou materiais didáticos, por favor cite:
 **O aplicativo:**
 > REIS, Ulisses Levy Silvério dos. *Atlas Constitucional*. Aplicativo
 > Shiny interativo. UFERSA, 2026. Disponível em:
-> https://PLACEHOLDER.shinyapps.io. Acesso em: [data].
+> https://n8wo69-ulisses0reis.shinyapps.io/atlas_constitucional_2026/. Acesso em: [data].
 
 **Os dados (CCP v5):**
 > ELKINS, Zachary; GINSBURG, Tom; MELTON, James. *Comparative
