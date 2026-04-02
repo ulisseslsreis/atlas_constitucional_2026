@@ -11,8 +11,8 @@ ui <- shiny::tagList(
       justify-content: center;
     }
     .navbar-nav .nav-link.active {
-      color: #f5a623 !important;
-      border-bottom-color: #f5a623 !important;
+      color: #c47a8a !important;
+      border-bottom-color: #c47a8a !important;
     }
     .leaflet-container {
       background: #f8f8f8;
@@ -37,7 +37,7 @@ ui <- shiny::tagList(
     }
 
     .footer-links a:hover {
-      color: #2e6da4;
+      color: #4a6fa5;
       transform: translateY(-1px);
     }
 
@@ -49,7 +49,7 @@ ui <- shiny::tagList(
   # --- Cabeçalho (acima da navbar) ----------------------------
   shiny::div(
     style = "
-      background-color: #1a3a5c;
+      background-color: #2c3e50;
       padding: 20px 32px;
       width: 100%;
       text-align: center;
@@ -59,7 +59,7 @@ ui <- shiny::tagList(
       "Atlas Constitucional"
     ),
     shiny::div(
-      style = "font-size: 1em; color: #f5a623; margin-top: 6px;",
+      style = "font-size: 1em; color: #a8bcd4; margin-top: 6px;",
       "Explore e conheça as Constituições do mundo inteiro"
     )
   ),
@@ -69,10 +69,10 @@ ui <- shiny::tagList(
 
     theme = bslib::bs_theme(
       version    = 5,
-      bootswatch = "flatly",
-      primary    = "#2e6da4",
-      secondary  = "#e07b2a",
-      base_font  = bslib::font_google("Inter")
+      bootswatch = "lumen",
+      primary    = "#4a6fa5",
+      secondary  = "#8b3a52",
+      base_font  = bslib::font_google("Source Serif 4")
     ),
 
     title = NULL,
@@ -121,7 +121,7 @@ ui <- shiny::tagList(
           "CCP v5",
           href   = "https://comparativeconstitutionsproject.org/data/",
           target = "_blank",
-          style  = "color: #2e6da4; text-decoration: none;"
+          style  = "color: #4a6fa5; text-decoration: none;"
         )
       ),
 
