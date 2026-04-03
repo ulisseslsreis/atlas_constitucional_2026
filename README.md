@@ -116,9 +116,7 @@ acadêmicos ou materiais didáticos, por favor cite:
 > https://n8wo69-ulisses0reis.shinyapps.io/atlas-constitucional/. Acesso em: [data].
 
 **Os dados (CCP v5):**
-> ELKINS, Zachary; GINSBURG, Tom; MELTON, James. *Comparative
-> Constitutions Project* (v5). University of Texas, 2025.
-> Disponível em: https://comparativeconstitutionsproject.org.
+> Elkins, Zachary and Tom Ginsburg. 2025 *Characteristics of National Constitutions*, Version 5.0.” Comparative Constitutions Project. Last modified: November 10, 2025. Available at https://comparativeconstitutionsproject.org.
 
 ## Agradecimentos
 
