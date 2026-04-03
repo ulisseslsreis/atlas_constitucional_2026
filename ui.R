@@ -117,27 +117,26 @@ ui <- shiny::tagList(
         style = "margin-bottom: 8px; line-height: 1.6;",
         "Desenvolvido por ",
         shiny::tags$strong("Ulisses Reis"),
-        " · UFERSA · Código aberto · Dados: ",
-        shiny::tags$a(
-          "Comparative Constitutions Project",
-          href   = "https://comparativeconstitutionsproject.org",
-          target = "_blank",
-          style  = "color: #4a6fa5; text-decoration: none;"
-        )
-      ),
-
-      # Linha 2: aviso de citação
-      shiny::div(
-        style = "margin-bottom: 12px; line-height: 1.6;",
-        "Caso utilize os dados deste app, por gentileza, citá-lo junto com a base de dados do CCP v5. ",
-        "Informações disponíveis no ",
+        " · UFERSA · Código aberto · Projeto disponível no ",
         shiny::tags$a(
           "Github",
           href   = "https://github.com/ulisseslsreis/atlas_constitucional_2026",
           target = "_blank",
           style  = "color: #4a6fa5; text-decoration: none;"
-        ),
+        )
       ),
+
+      # Linha 2: referência bibliográfica dos dados
+      shiny::div(
+  style = "margin-bottom: 12px; line-height: 1.6;",
+  shiny::HTML(
+    'Dados: Elkins, Zachary and Tom Ginsburg. 2025 "Characteristics of National Constitutions,
+    Version 5.0." Comparative Constitutions Project. Last modified: November 10, 2025.
+    Available at <a href="https://comparativeconstitutionsproject.org/"
+    target="_blank"
+    style="color: #4a6fa5; text-decoration: none;">comparativeconstitutionsproject.org</a>.'
+  )
+),
 
       # Linha 3: ícones sociais
       shiny::div(
