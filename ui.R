@@ -112,76 +112,84 @@ ui <- shiny::tagList(
         background-color: #fafafa;
       ",
 
+      # Linha 1: créditos
       shiny::div(
-        style = "margin-bottom: 10px; line-height: 1.6;",
+        style = "margin-bottom: 8px; line-height: 1.6;",
         "Desenvolvido por ",
         shiny::tags$strong("Ulisses Reis"),
         " · UFERSA · Código aberto · Dados: ",
         shiny::tags$a(
-          "CCP v5",
-          href   = "https://comparativeconstitutionsproject.org/data/",
+          "Comparative Constitutions Project",
+          href   = "https://comparativeconstitutionsproject.org",
           target = "_blank",
           style  = "color: #4a6fa5; text-decoration: none;"
         )
       ),
 
+      # Linha 2: aviso de citação
+      shiny::div(
+        style = "margin-bottom: 12px; line-height: 1.6;",
+        "Caso utilize os dados deste app, por gentileza, citá-lo junto com a base de dados do CCP v5. ",
+        "Informações disponíveis no ",
+        shiny::tags$a(
+          "Github",
+          href   = "https://github.com/ulisseslsreis/atlas_constitucional_2026",
+          target = "_blank",
+          style  = "color: #4a6fa5; text-decoration: none;"
+        ),
+      ),
+
+      # Linha 3: ícones sociais
       shiny::div(
         class = "footer-links",
         style = "display: flex; justify-content: center; gap: 18px; flex-wrap: wrap;",
 
         shiny::tags$a(
-          href = "mailto:ulisseslreis@gmail.com",
+          href   = "mailto:ulisseslreis@gmail.com",
           target = "_blank",
-          title = "E-mail",
+          title  = "E-mail",
           fontawesome::fa("envelope")
         ),
-
         shiny::tags$a(
-          href = "https://github.com/ulisseslsreis",
+          href   = "https://github.com/ulisseslsreis",
           target = "_blank",
-          title = "GitHub",
+          title  = "GitHub",
           fontawesome::fa("github")
         ),
-
         shiny::tags$a(
-          href = "https://www.linkedin.com/in/ulisses-reis-797919247/",
+          href   = "https://www.linkedin.com/in/ulisses-reis-797919247/",
           target = "_blank",
-          title = "LinkedIn",
+          title  = "LinkedIn",
           fontawesome::fa("linkedin")
         ),
-
         shiny::tags$a(
-          href = "https://www.researchgate.net/profile/Ulisses-Reis-2",
+          href   = "https://www.researchgate.net/profile/Ulisses-Reis-2",
           target = "_blank",
-          title = "ResearchGate",
+          title  = "ResearchGate",
           fontawesome::fa("graduation-cap")
         ),
-
         shiny::tags$a(
-          href = "http://lattes.cnpq.br/5041818002534490",
+          href   = "http://lattes.cnpq.br/5041818002534490",
           target = "_blank",
-          title = "Lattes",
+          title  = "Lattes",
           fontawesome::fa("file-lines")
         ),
-
         shiny::tags$a(
-          href = "https://orcid.org/0000-0003-1476-416X",
+          href   = "https://orcid.org/0000-0003-1476-416X",
           target = "_blank",
-          title = "ORCID",
+          title  = "ORCID",
           fontawesome::fa("id-badge")
         ),
-
         shiny::tags$a(
-          href = "https://bsky.app/profile/ulissesreis.bsky.social",
+          href   = "https://bsky.app/profile/ulissesreis.bsky.social",
           target = "_blank",
-          title = "Bluesky",
+          title  = "Bluesky",
           fontawesome::fa("cloud")
         ),
-
         shiny::tags$a(
-          href = "https://www.instagram.com/ulisseslsreis/",
+          href   = "https://www.instagram.com/ulisseslsreis/",
           target = "_blank",
-          title = "Instagram",
+          title  = "Instagram",
           fontawesome::fa("instagram")
         )
       )
