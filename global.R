@@ -35,7 +35,7 @@ ccp <- ccp_raw |>
 
     # Direitos fundamentais
     express, press, assem, freerel,
-    socecon, matequal, indcit,
+    socecon, matequal, indcit, cultrght,
 
     # Eleições e democracia
     hoselect, hogelect, votemin, voteun,
@@ -198,6 +198,15 @@ ccp <- ccp_raw |>
       indcit == 98 ~ "Não especificado",
       indcit == 99 ~ "Não aplicável",
       TRUE         ~ NA_character_
+    ),
+
+    # Dever estatal de proteger/promover cultura ou direitos culturais (cultrght)
+    cultrght_label = case_when(
+      cultrght == 1  ~ "Sim",
+      cultrght == 2  ~ "Não",
+      cultrght == 96 ~ "Outro",
+      cultrght == 97 ~ "Indeterminado",
+      TRUE           ~ NA_character_
     ),
 
     # Seleção do Chefe de Estado (hoselect)
@@ -475,6 +484,18 @@ atlas_vars <- list(
     )
   ),
 
+  # entrada de metadados para cultrght
+  cultrght_label = list(
+    titulo     = "A Constituição prevê dever estatal de proteger ou promover a cultura ou direitos culturais?",
+    categorias = c("Sim", "Não", "Outro", "Indeterminado"),
+    cores = c(
+      "#2e6da4",  # Sim — azul
+      "#e07b2a",  # Não — laranja
+      "#f5a623",  # Outro — âmbar
+      "#8e44ad"   # Indeterminado — roxo
+    )
+  ),
+
   hoselect_label = list(
     titulo     = "Como é selecionado o Chefe de Estado?",
     categorias = c(
@@ -599,13 +620,14 @@ choices_variaveis <- list(
     "Cortes religiosas"                       = "judcrts_8_label"
   ),
   "Direitos Fundamentais" = c(
-    "Liberdade de expressão"                  = "express_label",
-    "Liberdade de imprensa"                   = "press_label",
-    "Liberdade de reunião"                    = "assem_label",
-    "Liberdade religiosa"                     = "freerel_label",
-    "Direitos socioeconômicos"                = "socecon_label",
-    "Igualdade matrimonial"                   = "matequal_label",
-    "Cidadania plena a grupos indígenas"      = "indcit_label"
+    "Liberdade de expressão"                          = "express_label",
+    "Liberdade de imprensa"                           = "press_label",
+    "Liberdade de reunião"                            = "assem_label",
+    "Liberdade religiosa"                             = "freerel_label",
+    "Direitos socioeconômicos"                        = "socecon_label",
+    "Igualdade matrimonial"                           = "matequal_label",
+    "Cidadania plena a grupos indígenas"              = "indcit_label",
+    "Proteção/promoção da cultura ou dir. culturais"  = "cultrght_label"
   ),
   "Eleições e Democracia" = c(
     "Seleção do Chefe de Estado"              = "hoselect_label",

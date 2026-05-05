@@ -21,15 +21,16 @@ blocos_perfil <- list(
     "Cortes trabalhistas"                     = "judcrts_7_label",
     "Cortes religiosas"                       = "judcrts_8_label"
   ),
-  "Direitos Fundamentais" = c(
-    "Liberdade de expressão"                  = "express_label",
-    "Liberdade de imprensa"                   = "press_label",
-    "Liberdade de reunião"                    = "assem_label",
-    "Liberdade religiosa"                     = "freerel_label",
-    "Direitos socioeconômicos"                = "socecon_label",
-    "Igualdade matrimonial"                   = "matequal_label",
-    "Cidadania plena a grupos indígenas"      = "indcit_label"
-  ),
+    "Direitos Fundamentais" = c(
+    "Liberdade de expressão"                         = "express_label",
+    "Liberdade de imprensa"                          = "press_label",
+    "Liberdade de reunião"                           = "assem_label",
+    "Liberdade religiosa"                            = "freerel_label",
+    "Direitos socioeconômicos"                       = "socecon_label",
+    "Igualdade matrimonial"                          = "matequal_label",
+    "Cidadania plena a grupos indígenas"             = "indcit_label",
+    "Proteção/promoção da cultura ou dir. culturais" = "cultrght_label"
+),
   "Eleições e Democracia" = c(
     "Seleção do Chefe de Estado"              = "hoselect_label",
     "Seleção do Chefe de Governo"             = "hogelect_label",

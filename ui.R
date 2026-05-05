@@ -60,7 +60,7 @@ ui <- shiny::tagList(
     ),
     shiny::div(
       style = "font-size: 1em; color: #a8bcd4; margin-top: 6px;",
-      "Explore e conheça as Constituições do mundo inteiro"
+      "Explore e conheça as Constituições do mundo"
     )
   ),
 

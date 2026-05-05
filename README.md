@@ -51,13 +51,13 @@ contexto mundial para cada dimensão analisada.
 
 ## Variáveis disponíveis
 
-O app cobre atualmente 29 variáveis organizadas em cinco blocos temáticos:
+O app cobre atualmente 30 variáveis organizadas em cinco blocos temáticos:
 
 | Bloco | Exemplos de variáveis |
 |---|---|
 | Sistema de governo | Estrutura federal, executivo independente, casas legislativas |
 | Poder Judiciário | Corte constitucional, cortes militares, trabalhistas, religiosas |
-| Direitos Fundamentais | Liberdade de expressão, de imprensa, de reunião, direitos socioeconômicos |
+| Direitos Fundamentais | Liberdade de expressão, de imprensa, de reunião, direitos socioeconômicos, proteção da cultura e direitos culturais |
 | Eleições e Democracia | Seleção do chefe de Estado e de governo, sufrágio universal, idade mínima para votar |
 | Durabilidade Constitucional | Cláusulas pétreas, maioria qualificada para emendas, idade da constituição |
 
