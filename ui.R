@@ -186,6 +186,18 @@ ui <- shiny::tagList(
           fontawesome::fa("cloud")
         ),
         shiny::tags$a(
+          href   = "https://x.com/ulisseslsreis",
+          target = "_blank",
+          title  = "X",
+          fontawesome::fa("x-twitter")
+        ),
+        shiny::tags$a(
+          href   = "https://www.threads.com/@ulisseslsreis",
+          target = "_blank",
+          title  = "Threads",
+          fontawesome::fa("threads")
+        ),
+        shiny::tags$a(
           href   = "https://www.instagram.com/ulisseslsreis/",
           target = "_blank",
           title  = "Instagram",
